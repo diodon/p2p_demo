@@ -1,0 +1,147 @@
+Id,Longitude,Latitude,Year,Months,Country,Country_code,State,State_code,Locality,Locality_code,Site,Site_code,Sampling Date,Day,eventDate,BioR,Bioregion,Ocean,Ocean2,Labelscopy
+Ar-Chu-Ca-Cs-,-65.55611,-44.90833,2010,8,Argentina,Ar,Chubut,Chu,Camarones,Ca,Caleta Sara,Cs,8/23/2010,23,2010-08-23,184,North Patagonia,Atlantic,Atlantic,Ar-Chu-Ca-Cs-
+Ar-Chu-Ca-Se-,-65.64750,-44.88750,2010,8,Argentina,Ar,Chubut,Chu,Camarones,Ca,Sitio Expuesto,Se,8/24/2010,24,2010-08-24,184,North Patagonia,Atlantic,Atlantic,Ar-Chu-Ca-Se-
+Ar-Ba-Mp-Pc-,-57.52740,-38.02130,2010,7,Argentina,Ar,Buenos Aires,Ba,Mar del Plata,Mp,Playa Chica,Pc,7/27/2010,27,2010-07-27,183,Bs As Shelf,Atlantic,Atlantic,Ar-Ba-Mp-Pc-
+Ar-Ba-Mp-Pg-,-57.52817,-38.02466,2010,7,Argentina,Ar,Buenos Aires,Ba,Mar del Plata,Mp,Playa Grande,Pg,7/28/2010,28,2010-07-28,183,Bs As Shelf,Atlantic,Atlantic,Ar-Ba-Mp-Pg-
+Ar-Rn-Pd-Uk-,-65.02139,-41.64447,2010,7,Argentina,Ar,Rio Negro,Rn,Playas Doradas,Pd,1km,Uk,7/12/2010,12,2010-07-12,184,North Patagonia,Atlantic,Atlantic,Ar-Rn-Pd-Uk-
+Ar-Rn-Pd-Lv-,-65.02092,-41.63725,2010,7,Argentina,Ar,Rio Negro,Rn,Playas Doradas,Pd,La Vírgen,Lv,7/11/2010,11,2010-07-11,184,North Patagonia,Atlantic,Atlantic,Ar-Rn-Pd-Lv-
+Ar-Sc-Pde-No-,-65.84752,-47.74656,2010,8,Argentina,Ar,Santa cruz,Sc,Puerto deseado,Pde,ArNorte,No,9/10/2010,10,2010-08-10,185,Patagonian Shelf,Atlantic,Atlantic,Ar-Sc-Pde-No-
+Ar-Sc-Pde-Su-,-65.85528,-47.75056,2010,8,Argentina,Ar,Santa cruz,Sc,Puerto deseado,Pde,Sur,Su,9/11/2010,11,2010-08-11,185,Patagonian Shelf,Atlantic,Atlantic,Ar-Sc-Pde-Su-
+Ar-Chu-Pm-Pcu-,-65.00171,-42.77986,2010,7,Argentina,Ar,Chubut,Chu,Puerto Madryn,Pm,Punta Cuevas,Pcu,7/26/2010,26,2010-07-26,184,North Patagonia,Atlantic,Atlantic,Ar-Chu-Pm-Pcu-
+Ar-Chu-Pm-Pue-,-64.95264,-42.78511,2010,7,Argentina,Ar,Chubut,Chu,Puerto Madryn,Pm,Punta Este,Pue,7/15/2010,15,2010-07-15,184,North Patagonia,Atlantic,Atlantic,Ar-Chu-Pm-Pue-
+Ar-Tf-Us-Bg-,-68.32048,-54.83287,2010,8,Argentina,Ar,Tierra del fuego,Tf,Ushuaia,Us,Bahía Golondrina,Bg,9/08/2010,8,2010-08-08,187,Fiordos,Atlantic,Atlantic,Ar-Tf-Us-Bg-
+Ar-Tf-Us-Or-,-68.28333,-54.80250,2010,8,Argentina,Ar,Tierra del fuego,Tf,Ushuaia,Us,Orion,Or,9/07/2010,7,2010-08-07,187,Fiordos,Atlantic,Atlantic,Ar-Tf-Us-Or-
+Ar-Rn-Vi-Ee-,-63.00717,-41.11891,2010,7,Argentina,Ar,Rio Negro,Rn,Viedma,Vi,El Espigón,Ee,7/09/2010,9,2010-07-09,184,North Patagonia,Atlantic,Atlantic,Ar-Rn-Vi-Ee-
+Ar-Rn-Vi-Ll-,-63.12956,-41.15606,2010,7,Argentina,Ar,Rio Negro,Rn,Viedma,Vi,La Lobería,Ll,7/09/2010,9,2010-07-09,184,North Patagonia,Atlantic,Atlantic,Ar-Rn-Vi-Ll-
+Br-Sp-Bs-Gi-,-46.29083,-24.02028,2010,9,Brazil,Br,Sao Paulo,Sp,Baixada Santista,Bs,Guaiúba,Gi,9/21/2010,21,2010-09-21,180,SE Brazil,Atlantic,Atlantic,Br-Sp-Bs-Gi-
+Br-Sp-Bs-Ipo-,-46.36778,-23.98167,2010,9,Brazil,Br,Sao Paulo,Sp,Baixada Santista,Bs,Ilha Porchat,Ipo,9/20/2010,20,2010-09-20,180,SE Brazil,Atlantic,Atlantic,Br-Sp-Bs-Ipo-
+Br-Sp-Bs-Iq-,-46.39167,-24.00028,2010,9,Brazil,Br,Sao Paulo,Sp,Baixada Santista,Bs,Itaquitanduva,Iq,9/20/2010,20,2010-09-20,180,SE Brazil,Atlantic,Atlantic,Br-Sp-Bs-Iq-
+Br-Ce-Cau-Dc-,-38.60881,-3.68922,2010,9,Brazil,Br,Ceará,Ce,Caucaia,Cau,Dois Coqueiros,Dc,9/09/2010,9,2010-09-09,75,NE Brazil,Atlantic,Atlantic,Br-Ce-Cau-Dc-
+Br-Ce-Cau-Ip-,-38.62350,-3.68917,2010,9,Brazil,Br,Ceará,Ce,Caucaia,Cau,Iparana,Ip,9/10/2010,10,2010-09-10,75,NE Brazil,Atlantic,Atlantic,Br-Ce-Cau-Ip-
+Br-Ce-Cau-Pa-,-38.63519,-3.68628,2010,9,Brazil,Br,Ceará,Ce,Caucaia,Cau,Pacheco,Pa,9/11/2010,11,2010-09-11,75,NE Brazil,Atlantic,Atlantic,Br-Ce-Cau-Pa-
+Br-Paa-Gur-Gut-,-48.56083,-25.88931,2010,7,Brazil,Br,Paraná,Paa,Guaratuba,Gur,Guaratuba,Gut,7/13/2010,13,2010-07-13,180,SE Brazil,Atlantic,Atlantic,Br-Paa-Gur-Gut-
+Br-Bah-Il-Bac-,-39.01709,-14.92552,2010,8,Brazil,Br,Bahia,Bah,Ilhéus,Il,Backdoor,Bac,9/10/2010,10,2010-08-10,76,Eastern Brazil,Atlantic,Atlantic,Br-Bah-Il-Bac-
+Br-Bah-Il-Ps-,-39.02417,-14.81528,2010,8,Brazil,Br,Bahia,Bah,Ilhéus,Il,Praia do Sul,Ps,8/10/2010,10,2010-08-10,76,Eastern Brazil,Atlantic,Atlantic,Br-Bah-Il-Ps-
+Br-Bah-Ita-Au-,-38.99897,-14.33969,2010,8,Brazil,Br,Bahia,Bah,Itacaré,Ita,Arruda,Au,8/10/2010,10,2010-08-10,76,Eastern Brazil,Atlantic,Atlantic,Br-Bah-Ita-Au-
+Br-Bah-Ita-Cl-,-38.98372,-14.27828,2010,8,Brazil,Br,Bahia,Bah,Itacaré,Ita,Coral,Cl,9/07/2010,7,2010-08-07,76,Eastern Brazil,Atlantic,Atlantic,Br-Bah-Ita-Cl-
+Br-Bah-It-Mg-,-38.60511,-12.95942,2010,8,Brazil,Br,Bahia,Bah,Itaparica,It,Mar Grande,Mg,8/13/2010,13,2010-08-13,75,NE Brazil,Atlantic,Atlantic,Br-Bah-It-Mg-
+Br-Bah-It-Pen-,-38.61603,-12.98514,2010,8,Brazil,Br,Bahia,Bah,Itaparica,It,Penha,Pen,8/13/2010,13,2010-08-13,75,NE Brazil,Atlantic,Atlantic,Br-Bah-It-Pen-
+Br-Bah-Ln-Gu-,-38.06081,-12.65061,2010,8,Brazil,Br,Bahia,Bah,Litoral Norte,Ln,Guarajuba,Gu,8/10/2010,10,2010-08-10,75,NE Brazil,Atlantic,Atlantic,Br-Bah-Ln-Gu-
+Br-Bah-Ln-Ita-,-38.04581,-12.63297,2010,8,Brazil,Br,Bahia,Bah,Litoral Norte,Ln,Itacimirim,Ita,8/10/2010,10,2010-08-10,75,NE Brazil,Atlantic,Atlantic,Br-Bah-Ln-Ita-
+Br-Paa-Mat-If-,-48.53653,-25.85133,2010,7,Brazil,Br,Paraná,Paa,Matinhos,Mat,Ilha do farol,If,7/12/2010,12,2010-07-12,180,SE Brazil,Atlantic,Atlantic,Br-Paa-Mat-If-
+Br-Sca-Pal-Pi-,-48.58844,-27.86506,2010,7,Brazil,Br,Santa Catarina,Sca,Palhoça,Pal,Pinheira,Pi,7/29/2010,29,2010-07-29,180,SE Brazil,Atlantic,Atlantic,Br-Sca-Pal-Pi-
+Br-Sca-Pal-Pr-,-48.57822,-27.88250,2010,7,Brazil,Br,Santa Catarina,Sca,Palhoça,Pal,Praia de Cima,Pr,7/27/2010,27,2010-07-27,180,SE Brazil,Atlantic,Atlantic,Br-Sca-Pal-Pr-
+Br-Sca-Pal-Pp-,-48.58047,-27.85000,2010,7,Brazil,Br,Santa Catarina,Sca,Palhoça,Pal,Pta Papagaios,Pp,7/28/2010,28,2010-07-28,180,SE Brazil,Atlantic,Atlantic,Br-Sca-Pal-Pp-
+Br-Paa-Pan-Im-,-48.31978,-25.57192,2010,7,Brazil,Br,Paraná,Paa,Paranaguá,Pan,Ilha do Mel,Im,7/11/2010,11,2010-07-11,180,SE Brazil,Atlantic,Atlantic,Br-Paa-Pan-Im-
+Br-Sp-Ss-Bl-,-45.42361,-23.82917,2010,9,Brazil,Br,Sao Paulo,Sp,Sao Sebastiao,Ss,Baleeiro,Bl,9/27/2010,27,2010-09-27,180,SE Brazil,Atlantic,Atlantic,Br-Sp-Ss-Bl-
+Br-Sp-Ss-Fe-,-45.41000,-23.84361,2010,9,Brazil,Br,Sao Paulo,Sp,Sao Sebastiao,Ss,Feiticeira,Fe,9/24/2010,24,2010-09-24,180,SE Brazil,Atlantic,Atlantic,Br-Sp-Ss-Fe-
+Br-Sp-Ss-Is-,-45.44361,-23.83194,2010,9,Brazil,Br,Sao Paulo,Sp,Sao Sebastiao,Ss,Itassuce,Is,9/23/2010,23,2010-09-23,180,SE Brazil,Atlantic,Atlantic,Br-Sp-Ss-Is-
+Br-Rg-To-Gd-,-49.73311,-29.35836,2010,7,Brazil,Br,Rio Grande do Sul,Rg,Torres,To,Guarita de Dentro,Gd,7/26/2010,26,2010-07-26,181,Rio Grande,Atlantic,Atlantic,Br-Rg-To-Gd-
+Br-Rg-To-Gf-,-49.73072,-29.35167,2010,7,Brazil,Br,Rio Grande do Sul,Rg,Torres,To,Guarita Fora,Gf,24-25/07/2010,24,2010-07-24,181,Rio Grande,Atlantic,Atlantic,Br-Rg-To-Gf-
+Br-Rg-To-Mf-,-49.72847,-29.34708,2010,7,Brazil,Br,Rio Grande do Sul,Rg,Torres,To,Morro farol,Mf,23 -24/07/2010,23,2010-07-23,181,Rio Grande,Atlantic,Atlantic,Br-Rg-To-Mf-
+Br-Ce-Tra-Ma-,-39.24894,-3.22325,2010,10,Brazil,Br,Ceará,Ce,Trairi,Tra,1Manguinhos,Ma,10/08/2010,8,2010-10-08,75,NE Brazil,Atlantic,Atlantic,Br-Ce-Tra-Ma-
+Br-Ce-Tra-Fl-,-39.26589,-3.21767,2010,10,Brazil,Br,Ceará,Ce,Trairi,Tra,Flecheiras,Fl,10/06/2010,6,2010-10-06,75,NE Brazil,Atlantic,Atlantic,Br-Ce-Tra-Fl-
+Br-Ce-Tra-Gua-,-39.22519,-3.24281,2010,10,Brazil,Br,Ceará,Ce,Trairi,Tra,Guajiru,Gua,10/07/2010,7,2010-10-07,75,NE Brazil,Atlantic,Atlantic,Br-Ce-Tra-Gua-
+Br-Sp-Uba-En-,-45.08417,-23.49972,2010,9,Brazil,Br,Sao Paulo,Sp,Ubatuba,Uba,Enseada,En,9/10/2010,10,2010-09-10,180,SE Brazil,Atlantic,Atlantic,Br-Sp-Uba-En-
+Br-Sp-Uba-Ia-,-45.04528,-23.45111,2010,9,Brazil,Br,Sao Paulo,Sp,Ubatuba,Uba,Itaguá,Ia,9/09/2010,9,2010-09-09,180,SE Brazil,Atlantic,Atlantic,Br-Sp-Uba-Ia-
+Br-Sp-Uba-Prg-,-45.05972,-23.46694,2010,9,Brazil,Br,Sao Paulo,Sp,Ubatuba,Uba,Praia Grande,Prg,9/11/2010,11,2010-09-11,180,SE Brazil,Atlantic,Atlantic,Br-Sp-Uba-Prg-
+Br-Es-Vit-Man-,-40.19127,-20.18528,2010,10,Brazil,Br,Espírito Santo,Es,Vitória,Vit,2Manguinhos,Man,10/05/2010,5,2010-10-05,76,Eastern Brazil,Atlantic,Atlantic,Br-Es-Vit-Man-
+Br-Es-Vit-Par-,-40.62837,-20.84172,2010,10,Brazil,Br,Espírito Santo,Es,Vitória,Vit,Paraty,Par,10/07/2010,7,2010-10-07,76,Eastern Brazil,Atlantic,Atlantic,Br-Es-Vit-Par-
+Br-Es-Vit-Ub-,-40.58783,-20.80450,2010,10,Brazil,Br,Espírito Santo,Es,Vitória,Vit,Ubu,Ub,10/06/2010,6,2010-10-06,76,Eastern Brazil,Atlantic,Atlantic,Br-Es-Vit-Ub-
+Ch-Ant-Ano-Cer-,-70.59178,-23.43525,2012,11,Chile,Ch,Antofagasta,Ant,Antofagasta,Ano,C. Errázuriz,Cer,29-Nov-12,29,2012-11-29,176,Humbolt,Pacific,Pacific,Ch-Ant-Ano-Cer-
+Ch-Ant-Ano-Lpo-,-70.43790,-23.72663,2012,11,Chile,Ch,Antofagasta,Ant,Antofagasta,Ano,La Poza,Lpo,30-Nov-12,30,2012-11-30,176,Humbolt,Pacific,Pacific,Ch-Ant-Ano-Lpo-
+Ch-Ant-Ano-Uni-,-70.42457,-23.70228,2012,12,Chile,Ch,Antofagasta,Ant,Antofagasta,Ano,Universidad,Uni,1-Dec-13,1,2012-12-01,176,Humbolt,Pacific,Pacific,Ch-Ant-Ano-Uni-
+Ch-Con-Coc-Cno-,-72.97868,-36.59373,2012,10,Chile,Ch,Concepción,Con,Concepción,Coc,Cocholgüe Norte,Cno,13-Oct-12,13,2012-10-13,178,Araucanian,Pacific,Pacific,Ch-Con-Coc-Cno-
+Ch-Con-Coc-Csu-,-72.98045,-36.60837,2012,10,Chile,Ch,Concepción,Con,Concepción,Coc,Cocholgüe Sur,Csu,11-Oct-12,11,2012-10-11,178,Araucanian,Pacific,Pacific,Ch-Con-Coc-Csu-
+Ch-Con-Coc-Lit-,-72.94931,-36.54649,2012,10,Chile,Ch,Concepción,Con,Concepción,Coc,Litril,Lit,15-Oct-12,15,2012-10-15,178,Araucanian,Pacific,Pacific,Ch-Con-Coc-Lit-
+Ch-Tar-Iqu-Hua-,-70.13160,-20.27746,2012,11,Chile,Ch,Tarapaca,Tar,Iquique,Iqu,Huayquique,Hua,27-Nov-12,27,2012-11-27,176,Humbolt,Pacific,Pacific,Ch-Tar-Iqu-Hua-
+Ch-Tar-Iqu-Lve-,-70.16564,-20.41993,2012,11,Chile,Ch,Tarapaca,Tar,Iquique,Iqu,Los Verdes,Lve,25-Nov-12,25,2012-11-25,176,Humbolt,Pacific,Pacific,Ch-Tar-Iqu-Lve-
+Ch-Tar-Iqu-Pbl-,-70.14635,-20.33285,2012,11,Chile,Ch,Tarapaca,Tar,Iquique,Iqu,Playa Blanca,Pbl,26-Nov-12,26,2012-11-26,176,Humbolt,Pacific,Pacific,Ch-Tar-Iqu-Pbl-
+Ch-Sa-Lc-Cr-,-71.63083,-33.50110,2010,10,Chile,Ch,San Antonio,Sa,Las Cruces,Lc,Cruces,Cr,10/04/2010,4,2010-10-04,177,Central Chile,Pacific,Pacific,Ch-Sa-Lc-Cr-
+Ch-Sa-Lc-Pt-,-71.70658,-33.42356,2010,10,Chile,Ch,San Antonio,Sa,Las Cruces,Lc,PTralca,Pt,10/14/2010,14,2010-10-14,177,Central Chile,Pacific,Pacific,Ch-Sa-Lc-Pt-
+Ch-Sa-Lc-Qu-,-71.70361,-33.39417,2010,10,Chile,Ch,San Antonio,Sa,Las Cruces,Lc,Quisco,Qu,10/07/2010,7,2010-10-07,177,Central Chile,Pacific,Pacific,Ch-Sa-Lc-Qu-
+Ch-Pet-Mo-Mol-,-71.51631,-32.24342,2010,11,Chile,Ch,Petorca,Pet,Molles,Mo,Molles,Mol,11/24/2010,24,2010-11-24,177,Central Chile,Pacific,Pacific,Ch-Pet-Mo-Mol-
+Ch-Coa-Mo-Pic-,-71.53364,-32.14258,2010,10,Chile,Ch,Choapa,Coa,Molles,Mo,Pichidangui,Pic,10/24/2010,24,2010-10-24,177,Central Chile,Pacific,Pacific,Ch-Coa-Mo-Pic-
+Ch-Coa-Mo-Tot-,-71.51392,-32.02567,2010,10,Chile,Ch,Choapa,Coa,Molles,Mo,Totoralillo,Tot,10/25/2010,25,2010-10-25,177,Central Chile,Pacific,Pacific,Ch-Coa-Mo-Tot-
+Ch-Mag-Pua-Pha-,-70.92903,-53.61208,2013,2,Chile,Ch,Magallánica,Mag,Punta Arenas,Pua,Puerto del Hambre,Pha,6-Feb-13,6,2013-02-06,187,Fiordos,Pacific,Pacific,Ch-Mag-Pua-Pha-
+Ch-Mag-Pua-Psa-,-70.91662,-53.63323,2013,1,Chile,Ch,Magallánica,Mag,Punta Arenas,Pua,Punta Santa Ana,Psa,5-Feb-13,5,2013-01-05,187,Fiordos,Pacific,Pacific,Ch-Mag-Pua-Psa-
+Ch-Isp-Ran-Ak-,-109.36516,-27.13486,2010,10,Chile,Ch,Isla de Pascua,Isp,Rapa Nui,Ran,Akapu,Ak,10/30/2010,30,2010-10-30,163,Pascua,Pacific,Pacific,Ch-Isp-Ran-Ak-
+Ch-Isp-Ran-Lp-,-109.29734,-27.08783,2010,10,Chile,Ch,Isla de Pascua,Isp,Rapa Nui,Ran,La Parouse,Lp,10/30/2010,30,2010-10-30,163,Pascua,Pacific,Pacific,Ch-Isp-Ran-Lp-
+Ch-Isp-Ran-Va-,-109.36516,-27.16813,2010,10,Chile,Ch,Isla de Pascua,Isp,Rapa Nui,Ran,Vaihu,Va,10/31/2010,31,2010-10-31,163,Pascua,Pacific,Pacific,Ch-Isp-Ran-Va-
+Ch-El-Tn-Ct-,-71.67547,-30.35903,2010,12,Chile,Ch,Elqui,El,Tongoy,Tn,Caleta Totoral,Ct,12/01/2010,1,2010-12-01,177,Central Chile,Pacific,Pacific,Ch-El-Tn-Ct-
+Ch-El-Tn-Tan-,-71.68642,-30.42953,2010,11,Chile,Ch,Elqui,El,Tongoy,Tn,Talcaruca Norte,Tan,11/30/2010,30,2010-11-30,177,Central Chile,Pacific,Pacific,Ch-El-Tn-Tan-
+Ch-El-Tn-Ts-,-71.69094,-30.50847,2010,11,Chile,Ch,Elqui,El,Tongoy,Tn,Talcaruca Sur,Ts,11/30/2010,30,2010-11-30,177,Central Chile,Pacific,Pacific,Ch-El-Tn-Ts-
+Ch-Lri-Val-Cun-,-73.40564,-39.72068,2012,11,Chile,Ch,Los Ríos,Lri,Valdivia,Val,Curiñanco Norte,Cun,11-Nov-12,11,2012-11-11,178,Araucanian,Pacific,Pacific,Ch-Lri-Val-Cun-
+Ch-Lri-Val-Cus-,-73.39099,-39.76458,2012,11,Chile,Ch,Los Ríos,Lri,Valdivia,Val,Curiñanco Sur,Cus,12-Nov-12,12,2012-11-12,178,Araucanian,Pacific,Pacific,Ch-Lri-Val-Cus-
+Ch-Lri-Val-Lmi-,-73.40015,-39.79655,2012,11,Chile,Ch,Los Ríos,Lri,Valdivia,Val,La Misión,Lmi,10-Nov-12,10,2012-11-10,178,Araucanian,Pacific,Pacific,Ch-Lri-Val-Lmi-
+Co-Cu-Go-Cam-,-78.19837,2.95678,2010,10,Colombia,Co,Cauca,Cu,Gorgona,Go,Camaronera,Cam,10/30/2010,30,2010-10-30,170,Panama Bight,Pacific,Pacific,Co-Cu-Go-Cam-
+Co-Cu-Go-Lav-,-78.20550,2.93668,2010,10,Colombia,Co,Cauca,Cu,Gorgona,Go,La Ventana,Lav,10/28/2010,28,2010-10-28,170,Panama Bight,Pacific,Pacific,Co-Cu-Go-Lav-
+Ec-Sae-Aho-Sbn-,-80.98422,-2.18937,2013,1,Ecuador,Ec,Santa Elena,Sae,Atrás Hotel,Aho,Salinas Base Naval,Sbn,12-13 Jan 13,12,2013-01-12,171,Guayaquil,Pacific,Pacific,Ec-Sae-Aho-Sbn-
+Ec-Mai-Bai-Pbe-,-80.45219,-0.61070,2013,2,Ecuador,Ec,Manabi,Mai,Bahia,Bai,Punta Bellaca,Pbe,7/02/2013,7,2013-02-07,171,Guayaquil,Pacific,Pacific,Ec-Mai-Bai-Pbe-
+Ec-Mai-Bai-Pgo-,-80.47027,-0.63997,2013,2,Ecuador,Ec,Manabi,Mai,Bahia,Bai,Punta Gorda,Pgo,16/02/2013,16,2013-02-16,171,Guayaquil,Pacific,Pacific,Ec-Mai-Bai-Pgo-
+Ec-Sae-Bal-Bef-,-80.88121,-2.20624,2013,1,Ecuador,Ec,Santa Elena,Sae,Ballenita,Bal,Ballenita El Faro,Bef,12-13 Jan 13,12,2013-01-12,171,Guayaquil,Pacific,Pacific,Ec-Sae-Bal-Bef-
+Ec-Sae-Bal-Bar-,-80.87198,-2.19958,2012,11,Ecuador,Ec,Santa Elena,Sae,Ballenita,Bal,Barco,Bar,17-18 Nov 2012,17,2012-11-17,171,Guayaquil,Pacific,Pacific,Ec-Sae-Bal-Bar-
+Ec-Sae-Pbn-Lob-,-80.99613,-2.20382,2013,1,Ecuador,Ec,Santa Elena,Sae,Puntilla BNS,Pbn,Loberia,Lob,20-Jan-13,20,2013-01-20,171,Guayaquil,Pacific,Pacific,Ec-Sae-Pbn-Lob-
+Pe-Li-An-Ele-,-77.19665,-11.76843,2010,8,Peru,Pe,Lima,Li,Ancon,An,Ensenada Leon,Ele,8/12/2010,12,2010-08-12,175,Central Peru,Pacific,Pacific,Pe-Li-An-Ele-
+Pe-Li-An-Sf-,-77.18875,-11.77103,2010,8,Peru,Pe,Lima,Li,Ancon,An,San Francisco,Sf,8/10/2010,10,2010-08-10,175,Central Peru,Pacific,Pacific,Pe-Li-An-Sf-
+Pe-Anc-Hu-Te-,-78.19692,-9.99674,2010,10,Peru,Pe,Ancash,Anc,Huarmey,Hu,Tuquillo-El Erizo,Te,10/25/2010,25,2010-10-25,175,Central Peru,Pacific,Pacific,Pe-Anc-Hu-Te-
+Pe-Anc-Hu-Tp-,-78.19547,-10.01397,2010,10,Peru,Pe,Ancash,Anc,Huarmey,Hu,Tuquillo-las pocitas,Tp,10/24/2010,224,2011-05-12,175,Central Peru,Pacific,Pacific,Pe-Anc-Hu-Tp-
+Pe-Ic-Mar-La-,-75.04575,-15.45757,2010,9,Peru,Pe,Ica,Ic,Marcona,Mar,La aguadita,La,9/11/2010,11,2010-09-11,176,Humbolt,Pacific,Pacific,Pe-Ic-Mar-La-
+Pe-Ic-Mar-Pb-,-75.03387,-15.46116,2010,9,Peru,Pe,Ica,Ic,Marcona,Mar,Punta Blanca,Pb,9/12/2010,12,2010-09-12,176,Humbolt,Pacific,Pacific,Pe-Ic-Mar-Pb-
+Tr-Sjl-Nor-Bb-,-61.31513,10.79936,2010,9,Trinidad,Tr,San Juan-Laventille,Sjl,North,Nor,Blanchiseusse Bay,Bb,9/07/2010,7,2010-09-07,71,Guyana,Atlantic,Caribbean,Tr-Sjl-Nor-Bb-
+Tr-Sjl-Nor-Lcu-,-61.39261,10.78416,2010,9,Trinidad,Tr,San Juan-Laventille,Sjl,North,Nor,Las Cuevas,Lcu,9/06/2010,6,2010-09-06,71,Guyana,Atlantic,Caribbean,Tr-Sjl-Nor-Lcu-
+Tr-Sjl-Nor-Mc-,-61.43537,10.75813,2010,9,Trinidad,Tr,San Juan-Laventille,Sjl,North,Nor,Maracas,Mc,9/06/2010,6,2010-09-06,71,Guyana,Atlantic,Caribbean,Tr-Sjl-Nor-Mc-
+Tr-Sg-Ne-Sal-,-60.92015,10.83559,2010,9,Trinidad,Tr,Sangre Grande,Sg,North East,Ne,Salybia,Sal,9/08/2010,8,2010-09-08,71,Guyana,Atlantic,Caribbean,Tr-Sg-Ne-Sal-
+Tr-Sg-Ne-To-,-60.94739,10.83379,2010,9,Trinidad,Tr,Sangre Grande,Sg,North East,Ne,Toco,To,9/09/2010,9,2010-09-09,71,Guyana,Atlantic,Caribbean,Tr-Sg-Ne-To-
+Ur-Mal-Pes-Eem-,-54.95441,-34.96959,2010,8,Uruguay,Ur,Maldonado,Mal,Punta del Este,Pes,El Emir,Eem,8/20/2010,20,2010-08-20,183,Bs As Shelf,Atlantic,Atlantic,Ur-Mal-Pes-Eem-
+Ur-Mal-Pes-Lasm-,-54.95469,-34.96600,2010,8,Uruguay,Ur,Maldonado,Mal,Punta del Este,Pes,Las Mesitas,Lasm,8/20/2010,20,2010-08-20,183,Bs As Shelf,Atlantic,Atlantic,Ur-Mal-Pes-Lasm-
+Ur-Ro-Stp-Eba-,-53.53143,-34.00058,2010,8,Uruguay,Ur,Rocha,Ro,Santa Teresa-Punta del Diablo,Stp,El Barco,Eba,8/21/2010,21,2010-08-21,181,Rio Grande,Atlantic,Atlantic,Ur-Ro-Stp-Eba-
+Ur-Ro-Stp-Lm-,-53.53014,-33.97529,2010,8,Uruguay,Ur,Rocha,Ro,Santa Teresa-Punta del Diablo,Stp,La Moza,Lm,8/21/2010,21,2010-08-21,183,Bs As Shelf,Atlantic,Atlantic,Ur-Ro-Stp-Lm-
+Ur-Ro-Stp-Pdd-,-53.53606,-34.04621,2010,8,Uruguay,Ur,Rocha,Ro,Santa Teresa-Punta del Diablo,Stp,Punta del Diablo,Pdd,8/21/2010,21,2010-08-21,181,Rio Grande,Atlantic,Atlantic,Ur-Ro-Stp-Pdd-
+Ve-Var-Ci-Piv-,-67.23851,10.55252,2010,8,Venezuela,Ve,Vargas,Var,Chichiriviche,Ci,Piedra La Virgen,Piv,8/23/2010,23,2010-08-23,66,South caribbean,Atlantic,Caribbean,Ve-Var-Ci-Piv-
+Ve-Var-Ci-Sm-,-67.27184,10.54596,2010,8,Venezuela,Ve,Vargas,Var,Chichiriviche,Ci,San Miguel,Sm,8/23/2010,23,2010-08-23,66,South caribbean,Atlantic,Caribbean,Ve-Var-Ci-Sm-
+Ve-Mi-Chi-Cor-,-66.16196,10.60778,2010,7,Venezuela,Ve,Miranda,Mi,Chirimena,Chi,Corrales,Cor,7/29/2010,29,2010-07-29,66,South caribbean,Atlantic,Caribbean,Ve-Mi-Chi-Cor-
+Ve-Ara-Cha-Cep-,-67.51699,10.52244,2010,8,Venezuela,Ve,Aragua,Ara,Chuao,Cha,Cepe,Cep,8/20/2010,20,2010-08-20,66,South caribbean,Atlantic,Caribbean,Ve-Ara-Cha-Cep-
+Ve-Ara-Cha-Vs-,-67.56247,10.51650,2010,8,Venezuela,Ve,Aragua,Ara,Chuao,Cha,Valle Seco,Vs,8/20/2010,20,2010-08-20,66,South caribbean,Atlantic,Caribbean,Ve-Ara-Cha-Vs-
+Ve-Var-Chs-Cap-,-66.28438,10.64524,2010,8,Venezuela,Ve,Vargas,Var,Chuspa,Chs,Capino,Cap,8/27/2010,27,2010-08-27,66,South caribbean,Atlantic,Caribbean,Ve-Var-Chs-Cap-
+Ve-Var-Chs-Cai-,-66.30504,10.63111,2010,8,Venezuela,Ve,Vargas,Var,Chuspa,Chs,Caribe,Cai,8/26/2010,26,2010-08-26,66,South caribbean,Atlantic,Caribbean,Ve-Var-Chs-Cai-
+Ve-Var-Chs-Qui-,-66.29903,10.64036,2010,8,Venezuela,Ve,Vargas,Var,Chuspa,Chs,Quigua,Qui,8/27/2010,27,2010-08-27,66,South caribbean,Atlantic,Caribbean,Ve-Var-Chs-Qui-
+Ve-Nes-Lpa-Ho-,-64.30669,11.06294,2010,8,Venezuela,Ve,Nueva Esparta,Nes,La Pared,Lpa,Hotel,Ho,8/28/2010,28,2010-08-28,66,South caribbean,Atlantic,Caribbean,Ve-Nes-Lpa-Ho-
+Ve-Nes-Lpa-Ra-,-64.29619,11.07075,2010,8,Venezuela,Ve,Nueva Esparta,Nes,La Pared,Lpa,Rancheria,Ra,9/13/2010,13,2010-08-13,66,South caribbean,Atlantic,Caribbean,Ve-Nes-Lpa-Ra-
+Ve-Var-Ls-Ok-,-66.39689,10.62418,2010,8,Venezuela,Ve,Vargas,Var,La Sabana,Ls,1.5 Km,Ok,8/26/2010,26,2010-08-26,66,South caribbean,Atlantic,Caribbean,Ve-Var-Ls-Ok-
+Ve-Su-Moc-Ph-,-64.34762,10.38888,2010,9,Venezuela,Ve,Sucre,Su,Mochima,Moc,Piedra Ahogada,Ph,9/24/2010,24,2010-09-24,66,South caribbean,Atlantic,Caribbean,Ve-Su-Moc-Ph-
+Ve-Su-Moc-Puc-,-64.36745,10.39569,2010,9,Venezuela,Ve,Sucre,Su,Mochima,Moc,Punta Cruz,Puc,9/24/2010,24,2010-09-24,66,South caribbean,Atlantic,Caribbean,Ve-Su-Moc-Puc-
+Ve-Su-Moc-Puv-,-64.33722,10.39804,2010,9,Venezuela,Ve,Sucre,Su,Mochima,Moc,Punta La Virgen,Puv,9/24/2010,24,2010-09-24,66,South caribbean,Atlantic,Caribbean,Ve-Su-Moc-Puv-
+Ve-Fa-Mor-Boc-,-68.23510,10.83507,2010,8,Venezuela,Ve,Falcon,Fa,Morrocoy,Mor,Boca Seca,Boc,8/04/2010,4,2010-08-04,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Mor-Boc-
+Ve-Fa-Mor-Cay-,-68.23634,10.85171,2010,8,Venezuela,Ve,Falcon,Fa,Morrocoy,Mor,Cayman,Cay,8/03/2010,3,2010-08-03,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Mor-Cay-
+Ve-Fa-Mor-Me-,-68.24769,10.81982,2010,8,Venezuela,Ve,Falcon,Fa,Morrocoy,Mor,Mero,Me,8/03/2010,3,2010-08-03,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Mor-Me-
+Ve-Ara-Oc-Ga-,-67.82277,10.48416,2010,8,Venezuela,Ve,Aragua,Ara,Ocumare,Oc,Guabina,Ga,8/19/2010,19,2010-08-19,66,South caribbean,Atlantic,Caribbean,Ve-Ara-Oc-Ga-
+Ve-Ara-Oc-Lci-,-67.80318,10.48732,2010,8,Venezuela,Ve,Aragua,Ara,Ocumare,Oc,La Cienaga,Lci,8/19/2010,19,2010-08-19,66,South caribbean,Atlantic,Caribbean,Ve-Ara-Oc-Lci-
+Ve-Fa-Pag-Dp-,-69.97258,12.17408,2010,8,Venezuela,Ve,Falcon,Fa,Paraguana,Pag,Denise Point,Dp,8/10/2010,10,2010-08-10,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Pag-Dp-
+Ve-Fa-Pag-Nw-,-69.95688,12.17477,2010,8,Venezuela,Ve,Falcon,Fa,Paraguana,Pag,New,Nw,8/10/2010,10,2010-08-10,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Pag-Nw-
+Ve-Fa-Pag-Pla-,-69.93472,12.17222,2010,8,Venezuela,Ve,Falcon,Fa,Paraguana,Pag,Playa Angosta,Pla,8/10/2010,10,2010-08-10,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Pag-Pla-
+Ve-Fa-Pag-Sr-,-69.99756,12.19228,2010,8,Venezuela,Ve,Falcon,Fa,Paraguana,Pag,San Roman,Sr,8/09/2010,9,2010-08-09,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Pag-Sr-
+Ve-Car-Pat-Bo-,-67.92781,10.45703,2010,8,Venezuela,Ve,Carabobo,Car,Patanemo,Pat,Bocaina,Bo,8/13/2010,13,2010-08-13,66,South caribbean,Atlantic,Caribbean,Ve-Car-Pat-Bo-
+Ve-Car-Pat-Est-,-67.91958,10.45495,2010,8,Venezuela,Ve,Carabobo,Car,Patanemo,Pat,Este,Est,8/15/2010,15,2010-08-15,66,South caribbean,Atlantic,Caribbean,Ve-Car-Pat-Est-
+Ve-Car-Pat-Gañ-,-67.95193,10.46445,2010,8,Venezuela,Ve,Carabobo,Car,Patanemo,Pat,Gañango,Gañ,8/13/2010,13,2010-08-13,66,South caribbean,Atlantic,Caribbean,Ve-Car-Pat-Gañ-
+Ve-Fa-Sjo-Far-,-68.83285,11.44292,2010,8,Venezuela,Ve,Falcon,Fa,San Jose,Sjo,Faro,Far,8/11/2010,11,2010-08-11,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Sjo-Far-
+Ve-Fa-Sjo-Sau-,-68.88675,11.44752,2010,8,Venezuela,Ve,Falcon,Fa,San Jose,Sjo,Sauca,Sau,8/12/2010,12,2010-08-12,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Sjo-Sau-
+Ve-Fa-Sju-Nt-,-68.40942,11.18969,2010,8,Venezuela,Ve,Falcon,Fa,San Juan,Sju,VeNorte,Nt,8/14/2010,14,2010-08-14,66,South caribbean,Atlantic,Caribbean,Ve-Fa-Sju-Nt-
+Ve-Su-Saf-Dk-,-64.45033,10.27871,2010,9,Venezuela,Ve,Sucre,Su,Santa Fe,Saf,2.7 km,Dk,9/25/2010,25,2010-09-25,66,South caribbean,Atlantic,Caribbean,Ve-Su-Saf-Dk-
+Ve-Su-Saf-Sfe-,-64.42698,10.28311,2010,9,Venezuela,Ve,Sucre,Su,Santa Fe,Saf,Santa Fe,Sfe,9/25/2010,25,2010-09-25,66,South caribbean,Atlantic,Caribbean,Ve-Su-Saf-Sfe-
+Br-Mnh-Slu-Cal-,-44.243049,-2.480398,2013,6,Brazil,Br,Maranhao,Mnh,Sao Luis,Slu,Calhau,Cal,10/06/2013,10,2013-06-10,72,Amazonia,Atlantic,Atlantic,Br-Mnh-Slu-Cal-
+Br-Mnh-Slu-Sma-,-44.287222,-2.486944,2013,6,Brazil,Br,Maranhao,Mnh,Sao Luis,Slu,San Marcos ,Sma,11/06/2013,11,2013-06-11,72,Amazonia,Atlantic,Atlantic,Br-Mnh-Slu-Sma-
+Br-Mnh-Slu-Paq-,-44.203100,-2.464920,2013,6,Brazil,Br,Maranhao,Mnh,Sao Luis,Slu,Panaquatira ,Paq,13/06/2013,13,2013-06-13,72,Amazonia,Atlantic,Atlantic,Br-Mnh-Slu-Paq-
+Br-Mnh-Slu-Ary-,-44.197497,-2.464903,2013,6,Brazil,Br,Maranhao,Mnh,Sao Luis,Slu,Aracagy,Ary,12/06/2013,12,2013-06-12,72,Amazonia,Atlantic,Atlantic,Br-Mnh-Slu-Ary-
+Pe-Piu-Pai-Eau-,-81.166936,-5.096633,2013,4,Peru,Pe,Piura,Piu,Paita,Pai,El Audaz,Eau,29/04/2013,29,2013-04-29,171,Guayaquil,Pacific,Pacific,Pe-Piu-Pai-Eau-
+Pe-Piu-Pai-Eca-,-81.174556,-5.143864,2013,4,Peru,Pe,Piura,Piu,Paita,Pai,El Cangrejo,Eca,30/04/2013,30,2013-04-30,171,Guayaquil,Pacific,Pacific,Pe-Piu-Pai-Eca-
+Pe-Tac-Mec-Meu-,-70.911383,-17.952053,2013,8,Peru,Pe,Tacna,Tac,Meca,Mec,Meca1,Meu,6/08/2013,6,2013-08-06,176,Humbolt,Pacific,Pacific,Pe-Tac-Mec-Meu-
+Pe-Tac-Mec-Med-,-70.902792,-17.958358,2013,8,Peru,Pe,Tacna,Tac,Meca,Mec,Meca2,Med,6/08/2013,6,2013-08-06,176,Humbolt,Pacific,Pacific,Pe-Tac-Mec-Med-
+Pe-Tac-Bdr-Pco-,-70.693044,-18.150331,2013,8,Peru,Pe,Tacna,Tac,Boca del Rio,Bdr,P. Colorada,Pco,4/08/2013,4,2013-08-04,176,Humbolt,Pacific,Pacific,Pe-Tac-Bdr-Pco-
+Pe-Tac-Bdr-Tom-,-70.704317,-18.139208,2013,8,Peru,Pe,Tacna,Tac,Boca del Rio,Bdr,P. Tomoyo,Tom,5/08/2013,5,2013-08-05,176,Humbolt,Pacific,Pacific,Pe-Tac-Bdr-Tom-
+Co-Cu-Go-Pre-,-78.202028,2.934083,2013,5,Colombia,Co,Cauca,Cu,Gorgona,Go,Piedra Redonda,Pre,28/05/2013,28,2013-05-28,170,Panama Bight,Pacific,Pacific,Co-Cu-Go-Pre-
+Co-Cho-Pad-Pau-,-77.807028,7.152667,2013,6,Colombia,Co,Choco,Cho,Punta Ardita,Pad,Punta Ardita 1,Pau,25/06/2013,25,2013-06-25,170,Panama Bight,Pacific,Pacific,Co-Cho-Pad-Pau-
+Co-Cho-Pad-Pud-,-77.782139,7.128417,2013,6,Colombia,Co,Choco,Cho,Punta Ardita,Pad,Punta Ardita 2,Pud,26/06/2013,26,2013-06-26,170,Panama Bight,Pacific,Pacific,Co-Cho-Pad-Pud-
+Co-Cho-Cma-Cmr-,-77.694444,6.832139,2013,6,Colombia,Co,Choco,Cho,Cabo Marzo,Cma,Cabo Marzo,Cmr,27/06/2013,27,2013-06-27,170,Panama Bight,Pacific,Pacific,Co-Cho-Cma-Cmr-
+Co-Cho-Pin-Cab-,-77.528972,6.655194,2013,6,Colombia,Co,Choco,Cho,Piñas,Pin,Cambura,Cab,28/06/2013,28,2013-06-28,170,Panama Bight,Pacific,Pacific,Co-Cho-Pin-Cab-
+Co-Cho-Nuq-Teq-,-77.414417,5.628333,2013,6,Colombia,Co,Choco,Cho,Nuqui,Nuq,Terquitos,Teq,30/06/2013,30,2013-06-30,170,Panama Bight,Pacific,Pacific,Co-Cho-Nuq-Teq-
