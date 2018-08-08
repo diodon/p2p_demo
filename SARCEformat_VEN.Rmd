@@ -22,7 +22,7 @@ The SARCE dataset in full is a table in wide format, with the taxon name in the 
 library(tidyr)
 library(readr)  ## this one is better for reading the wide-table
 
-## I'll use SARCEezuela as case study here
+## I'll use Venezuela as case study here
 ## read the data
 SARCE <- read_csv("data/SARCE/Venezuela.csv")
 
