@@ -21,9 +21,9 @@ The SARCE dataset in full is a table in wide format, with the taxon name in the 
 library(tidyr)
 library(readr)  ## this one is better for reading the wide-table
 
-## I'll use Venezuela as case study here
+## I'll use SARCEezuela as case study here
 ## read the data
-VEN <- read_csv("data/SARCE/Venezuela.csv")
+SARCE <- read_csv("data/SARCE/Venezuela.csv")
 ```
 
     ## Parsed with column specification:
@@ -56,7 +56,7 @@ VEN <- read_csv("data/SARCE/Venezuela.csv")
 
 ``` r
 ## see the tablel dimensions
-dim(VEN)
+dim(SARCE)
 ```
 
     ## [1]  620 1136
@@ -64,7 +64,7 @@ dim(VEN)
 Clean the data
 --------------
 
-You see that the Venezuela SARCE table has 620 rows and 1136 columns.
+You see that the SARCEezuela SARCE table has 620 rows and 1136 columns.
 
 **TIP**: in RStudio, if you have a very wide table (i.e. many columns) don't try to view the table in the viewer as it will take very long time to accommodate all the columns in the memory
 
@@ -73,10 +73,10 @@ Now, let extract the names of the taxa in the table. In the SARCE table, the fir
 So lets use `tidyr::gather` to convert the table from wide to long format
 
 ``` r
-VEN.long = gather(VEN, key=scientificName, value=occurrence, 3:1113)
+SARCE.long = gather(SARCE, key=scientificName, value=occurrence, 3:1113)
 
 ## look at the structure
-str(VEN.long)
+str(SARCE.long)
 ```
 
     ## Classes 'tbl_df', 'tbl' and 'data.frame':    688820 obs. of  27 variables:
@@ -112,13 +112,13 @@ We need to do some cleaning. The taxon name is separated by an underscore. we wa
 
 ``` r
 ## remote the lines with occurrence == NA
-VEN.long = VEN.long[!is.na(VEN.long$occurrence),]
+SARCE.long = SARCE.long[!is.na(SARCE.long$occurrence),]
 
 ## remote the lines with taxa "abiotic"
-VEN.long = VEN.long[VEN.long$scientificName!="Abiota",]
+SARCE.long = SARCE.long[SARCE.long$scientificName!="Abiota",]
 
 ## replace the underscore in the taxon name by a space
-VEN.long$scientificName = gsub("_", " ", VEN.long$scientificName)
+SARCE.long$scientificName = gsub("_", " ", SARCE.long$scientificName)
 ```
 
 Extract the taxa list
@@ -127,7 +127,7 @@ Extract the taxa list
 Now with the date clean, let extract the taxon list, and save it in a text file for matching with WoRMS
 
 ``` r
-taxa = unique(VEN.long$scientificName)
+taxa = unique(SARCE.long$scientificName)
 print(taxa)
 ```
 
@@ -243,7 +243,7 @@ print(taxa)
 
 ``` r
 ## save it in a text file
-writeLines(unique(VEN.long$scientificName), con="data/SARCE/VEN_taxa.csv")
+writeLines(unique(SARCE.long$scientificName), con="data/SARCE/SARCE_taxa.csv")
 ```
 
 Frequency of Taxa
@@ -255,7 +255,7 @@ In this case I'll use the basic plotting system of R and a bar plot. But you can
 
 ``` r
 ## first make a table of frequencies
-taxafreq = table(VEN.long$scientificName)
+taxafreq = table(SARCE.long$scientificName)
 
 ## make a basic horizontal barplot
 barplot(sort(taxafreq, decreasing = T), las=2, cex.names=0.3, horiz = T)
