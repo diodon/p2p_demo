@@ -1,4 +1,4 @@
-Basic data formating SARCE
+Extract Taxa list from SARCE country data
 ================
 
 Introduction
