@@ -17,6 +17,8 @@ Read the data
 
 The SARCE dataset in full is a table in wide format, with the taxon name in the columns along with many other variables identifying the site. If the taxon is present is marked with "1" otherwise is "NA". We will produce a table in long format with the taxon name in the column "scientificName" (standard DwC name). As this table is only presence/absence we will recode that in the "occurrence" variable.
 
+**NOTE:** The data should be in the data/Sarce directory. If not, change the path in the `read_csv` command.
+
 ``` r
 library(tidyr)
 library(readr)  ## this one is better for reading the wide-table
@@ -264,7 +266,7 @@ taxafreq = table(SARCE.long$scientificName)
 barplot(sort(taxafreq, decreasing = T), las=2, cex.names=0.3, horiz = T)
 ```
 
-![](SARCEformat_VEN_files/figure-markdown_github/taxaplot-1.png)
+![](SARCE_taxaList_files/figure-markdown_github/taxaplot-1.png)
 
 But this plot has all the taxa and makes the labels unreadable. Let say that we're more interested in the taxa that represent the 75% of all occurrences
 
@@ -293,7 +295,7 @@ par(mar=c(5,10,4,2))
 barplot(taxafrec.df$Freq[1:limit75], names.arg = taxafrec.df$Var1[1:limit75],  las=2, cex.names=0.7, horiz = T)
 ```
 
-![](SARCEformat_VEN_files/figure-markdown_github/plot75taxa-1.png)
+![](SARCE_taxaList_files/figure-markdown_github/plot75taxa-1.png)
 
 You see in this data set "Film", and "CCA" are main components. You probably won't need it. Also many taxa are not fully identified at species level. WoRMS could help you to correct and homogenize your taxon list.
 

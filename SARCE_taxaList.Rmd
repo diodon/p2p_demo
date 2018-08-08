@@ -18,6 +18,9 @@ This script will read SARCE data and extract the list of taxa. The extracted lis
 
 The SARCE dataset in full is a table in wide format, with the taxon name in the columns along with many other variables identifying the site. If the taxon is present is marked with "1" otherwise is "NA".  We will produce a table in long format with the taxon name in the column "scientificName" (standard DwC name). As this table is only presence/absence we will recode that in the "occurrence" variable.
 
+**NOTE:** The data should be in the data/Sarce directory. If not, change the path in the `read_csv` command.
+
+
 ```{r dataread}
 library(tidyr)
 library(readr)  ## this one is better for reading the wide-table
