@@ -128,7 +128,7 @@ limit75 = which(taxafrec.df$Freq.accum>0.75)[1]
 ## do the plot with the reduced data frame
 ## note that this time we will be plotting a data frame not a table like the previous plot
 ## change the margins to accomodate long labels
-par(mar=c(5,10,4,2))
+par(mar=c(6,10,4,2))
 ## make the plot
 barplot(taxafrec.df$Freq[1:limit75], names.arg = taxafrec.df$Var1[1:limit75],  las=2, cex.names=0.7, horiz = T)
 
