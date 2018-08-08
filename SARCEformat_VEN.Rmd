@@ -16,7 +16,7 @@ This script will read SARCE data and extract the list of taxa. The extracted lis
 
 ## Read the data
 
-The SARCE dataset in full is a table in wide format, with the taxon name in the columns along with many other variables identifying the site. We will produce a table in long format with the taxon name in the column "scientificName" (standard DwC name). As this table is only presence/absence we will recode that in the "occurrence" variable.
+The SARCE dataset in full is a table in wide format, with the taxon name in the columns along with many other variables identifying the site. If the taxon is present is marked with "1" otherwise is "NA".  We will produce a table in long format with the taxon name in the column "scientificName" (standard DwC name). As this table is only presence/absence we will recode that in the "occurrence" variable.
 
 ```{r dataread}
 library(tidyr)
@@ -56,7 +56,10 @@ We need to do some cleaning. The taxon name is separated by an underscore. we wa
 ```{r dataclean}
 
 ## remote the lines with occurrence == NA
-SARCE.long = SARCE.long[!is.na(SARCE.long$occurrence),]
+SARCE.long = SARCE.long %>% drop_na(occurrence)
+
+## this could also be done with standard R command is.na
+## SARCE.long = SARCE.long[!is.na(SARCE.long$occurrence),]
 
 ## remote the lines with taxa "abiotic"
 SARCE.long = SARCE.long[SARCE.long$scientificName!="Abiota",]
