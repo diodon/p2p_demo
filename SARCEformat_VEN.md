@@ -1,15 +1,21 @@
 Extract Taxa list from SARCE country data
 ================
 
+-   [Introduction](#introduction)
+-   [Read the data](#read-the-data)
+-   [Clean the data](#clean-the-data)
+-   [Extract the taxa list](#extract-the-taxa-list)
+-   [Frequency of Taxa](#frequency-of-taxa)
+
 Introduction
 ------------
 
-This script will read SARCE data and extract the list of taxa. The extracted list will be matched against WoRMS and the corrections made. The SARCE dataset is already splitted by country.
+This script will read SARCE data and extract the list of taxa. The extracted list will be matched against WoRMS and the corrections made. The SARCE dataset is already split by country.
 
 Read the data
 -------------
 
-The SARCE dataset in full is a table in wide format, with the taxon name in the columns along with many other variables identifiying the site. We will produce a table in long format with the taxon name in the column "scientificName" (standard DwC name). As this table is only presence/absence we will recode that in the "occurence" variable.
+The SARCE dataset in full is a table in wide format, with the taxon name in the columns along with many other variables identifying the site. We will produce a table in long format with the taxon name in the column "scientificName" (standard DwC name). As this table is only presence/absence we will recode that in the "occurrence" variable.
 
 ``` r
 library(tidyr)
@@ -58,11 +64,11 @@ dim(VEN)
 Clean the data
 --------------
 
-You see that the Venezuela SARCE table has 620 rows and 1136 colums.
+You see that the Venezuela SARCE table has 620 rows and 1136 columns.
 
-**TIP**: in RStudio, if you have a very wide table (i.e. many columns) don't try to view the table in the viewer as it will take very long time to accomodate all the columns in the memory
+**TIP**: in RStudio, if you have a very wide table (i.e. many columns) don't try to view the table in the viewer as it will take very long time to accommodate all the columns in the memory
 
-Now, let extract the names of the taxa in the table. In the SARCE table, the first two colums are identification values, then the taxon name are in columns 3:1113. The rest of the colums are variables associated with the site (lat, lon, depth, zone, etc). More on those columns later...
+Now, let extract the names of the taxa in the table. In the SARCE table, the first two columns are identification values, then the taxon name are in columns 3:1113. The rest of the columns are variables associated with the site (lat, lon, depth, zone, etc). More on those columns later...
 
 So lets use `tidyr::gather` to convert the table from wide to long format
 
@@ -245,7 +251,7 @@ Frequency of Taxa
 
 Lets make a simple plot of the frequency of each taxa. But remember that this is not the final taxa list: it must be checked before with WoRMS
 
-In thos case I'll use the basic plotting system of R and a barplot. But you can use `ggplot2` package which is much more configurable and produces publication quality plots
+In this case I'll use the basic plotting system of R and a bar plot. But you can use `ggplot2` package which is much more configurable and produces publication quality plots
 
 ``` r
 ## first make a table of frequencies
@@ -286,6 +292,6 @@ barplot(taxafrec.df$Freq[1:limit75], names.arg = taxafrec.df$Var1[1:limit75],  l
 
 ![](SARCEformat_VEN_files/figure-markdown_github/plot75taxa-1.png)
 
-You see in thos data set "Film", and "CCA" are main components. You probably won't need it. Also many taxa are not fully identified at species level. WoRMS could help you to correct and homogenize your taxon list.
+You see in this data set "Film", and "CCA" are main components. You probably won't need it. Also many taxa are not fully identified at species level. WoRMS could help you to correct and homogenize your taxon list.
 
-Now got to [WoRMS](marinespecies.org) and do the match
+Now got to [WoRMS](marinespecies.org) and do the match.

@@ -1,6 +1,9 @@
 ---
 title: "Extract Taxa list from SARCE country data"
-output: html_document
+output:
+  github_document:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -128,5 +131,5 @@ barplot(taxafrec.df$Freq[1:limit75], names.arg = taxafrec.df$Var1[1:limit75],  l
 You see in this data set "Film", and "CCA" are main components. You probably won't need it. Also many taxa are not fully identified at species level. WoRMS could help you to correct and homogenize your taxon list.
 
 
-Now got to [WoRMS](marinespecies.org) and do the match
+Now got to [WoRMS](marinespecies.org) and do the match.
 
