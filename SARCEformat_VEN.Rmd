@@ -1,6 +1,6 @@
 ---
 title: "Extract Taxa list from SARCE country data"
-output: github_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
