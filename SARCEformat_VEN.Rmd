@@ -1,0 +1,83 @@
+---
+title: "Basic data formating SARCE"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This script will read SARCE data and extract the list of taxa. The extracted list will be matched against WoRMS and the corrections made. The SARCE dataset is already splitted by country.
+
+## Read the data
+
+The SARCE dataset in full is a table in wide format, with the taxon name in the columns along with many other variables identifiying the site. We will produce a table in long format with the taxon name in the column "scientificName" (standard DwC name). As this table is only presence/absence we will recode that in the "occurence" variable.
+
+```{r dataread}
+library(tidyr)
+library(readr)  ## this one is better for reading the wide-table
+
+## I'll use Venezuela as case study here
+## read the data
+VEN <- read_csv("data/SARCE/Venezuela.csv")
+
+## see the tablel dimensions
+dim(VEN)
+
+```
+
+
+## Clean the data
+
+You see that the Venezuela SARCE table has `r dim(VEN)[1]` rows and `r dim(VEN)[2]` colums. 
+
+**TIP**: in RStudio, if you have a very wide table (i.e. many columns) don't try to view the table in the viewer as it will take very long time to accomodate all the columns in the memory
+
+Now, let extract the names of the taxa in the table. In the SARCE table, the first two colums are identification values, then the taxon name are in columns 3:1113. The rest of the colums are variables associated with the site (lat, lon, depth, zone, etc). More on those columns later...
+
+So lets use `tidyr::gather` to convert the table from wide to long format
+
+```{r wide2long}
+
+VEN.long = gather(VEN, key=scientificName, value=occurrence, 3:1113)
+
+## look at the structure
+str(VEN.long)
+```
+
+
+We need to do some cleaning. The taxon name is separated by an underscore. we want a space (for WoRMS to process the match). We don't need lines with `occurrence` equal to NA (that means that this particular taxon was not observed) nor the taxon "Abiotic"
+
+```{r dataclean}
+
+## remote the lines with occurrence == NA
+VEN.long = VEN.long[!is.na(VEN.long$occurrence),]
+
+## remote the lines with taxa "abiotic"
+VEN.long = VEN.long[VEN.long$scientificName!="Abiota",]
+
+## replace the underscore in the taxon name by a space
+VEN.long$scientificName = gsub("_", " ", VEN.long$scientificName)
+
+
+```
+
+
+## Extract the taxa list
+
+Now with the date clean, let extract the taxon list, and save it in a text file for matching with WoRMS
+
+```{r extracttaxa}
+taxa = unique(VEN.long$scientificName)
+print(taxa)
+
+## save it in a text file
+writeLines(unique(VEN.long$scientificName), con="data/SARCE/VEN_taxa.csv")
+
+```
+
+
+Now got to [WoRMS](marinespecies.org) and do the match
+
