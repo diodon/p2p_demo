@@ -79,5 +79,54 @@ writeLines(unique(VEN.long$scientificName), con="data/SARCE/VEN_taxa.csv")
 ```
 
 
+## Frequency of Taxa
+
+Lets make a simple plot of the frequency of each taxa. But remember that this is not the final taxa list: it must be checked before with WoRMS
+
+In thos case I'll use the basic plotting system of R and a barplot. But you can use `ggplot2` package which is much more configurable and produces publication quality plots
+
+
+```{r taxaplot, fig.height=10, fig.width=8}
+
+## first make a table of frequencies
+taxafreq = table(VEN.long$scientificName)
+
+## make a basic horizontal barplot
+barplot(sort(taxafreq, decreasing = T), las=2, cex.names=0.3, horiz = T)
+
+```
+
+
+But this plot has all the taxa and makes the labels unreadable. Let say that we're more interested in the taxa that represent the 75% of all occurrences
+
+```{r plot75taxa, fig.height=10, fig.width=8}
+## Make a table of proportions
+taxafreq.prop = prop.table(taxafreq)
+
+## convert the table into a data frame 
+taxafrec.df = as.data.frame(taxafreq.prop)
+
+## sort the table by proportion (descending)
+taxafrec.df = taxafrec.df[order(taxafrec.df$Freq, decreasing = T),]
+
+## add the accum freq
+taxafrec.df$Freq.accum = cumsum(taxafrec.df$Freq)
+
+## plot the taxa for 75% of all occurrences
+## first look at the indices of the taxa accummulats up to 75% and pick the first index
+limit75 = which(taxafrec.df$Freq.accum>0.75)[1]
+
+## do the plot with the reduced data frame
+## note that this time we will be plotting a data frame not a table like the previous plot
+## change the margins to accomodate long labels
+par(mar=c(5,10,4,2))
+## make the plot
+barplot(taxafrec.df$Freq[1:limit75], names.arg = taxafrec.df$Var1[1:limit75],  las=2, cex.names=0.7, horiz = T)
+
+```
+
+You see in thos data set "Film", and "CCA" are main components. You probably won't need it. Also many taxa are not fully identified at species level. WoRMS could help you to correct and homogenize your taxon list.
+
+
 Now got to [WoRMS](marinespecies.org) and do the match
 
