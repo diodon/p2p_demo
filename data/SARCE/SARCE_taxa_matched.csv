@@ -15,7 +15,7 @@ Asparagopsis sp1	143809	exact	urn:lsid:marinespecies.org:taxname:143809	Asparago
 Asparagopsis sp2	143809	exact	urn:lsid:marinespecies.org:taxname:143809	Asparagopsis	Montagne, 1840	143809	Asparagopsis	Montagne, 1840	Plantae	Rhodophyta	Florideophyceae	Bonnemaisoniales	Bonnemaisoniaceae	Asparagopsis			
 Asparagopsis sp3	143809	exact	urn:lsid:marinespecies.org:taxname:143809	Asparagopsis	Montagne, 1840	143809	Asparagopsis	Montagne, 1840	Plantae	Rhodophyta	Florideophyceae	Bonnemaisoniales	Bonnemaisoniaceae	Asparagopsis			
 Astraea sp1	739035	exact	urn:lsid:marinespecies.org:taxname:739035	Astraea	Lamarck, 1801	517592	Astrea	Lamarck, 1801	Animalia	Cnidaria	Anthozoa	Scleractinia	Merulinidae	Astraea			
-Astraea tecta									
+Astraea tecta	413407	near_1	urn:lsid:marinespecies.org:taxname:413407	Lithopoma americanum	(Gmelin, 1791)	413407	Lithopoma americanum	(Gmelin, 1791)	Animalia	Mollusca	Gastropoda	Trochida	Turbinidae	Lithopoma	americanum		
 Balanus sp2	106122	exact	urn:lsid:marinespecies.org:taxname:106122	Balanus	Costa, 1778	106122	Balanus	Costa, 1778	Animalia	Arthropoda	Hexanauplia	Sessilia	Balanidae	Balanus			
 Bivalvia spp	105	exact	urn:lsid:marinespecies.org:taxname:105	Bivalvia	Linnaeus, 1758	105	Bivalvia	Linnaeus, 1758	Animalia	Mollusca	Bivalvia						
 Brachidontes dominguensis	420695	phonetic	urn:lsid:marinespecies.org:taxname:420695	Brachidontes domingensis	(Lamarck, 1819)	420695	Brachidontes domingensis	(Lamarck, 1819)	Animalia	Mollusca	Bivalvia	Mytilida	Mytilidae	Brachidontes		domingensis	
@@ -35,7 +35,7 @@ Caulerpa sertularioides	144474	exact	urn:lsid:marinespecies.org:taxname:144474	C
 Caulerpa sp1	143816	exact	urn:lsid:marinespecies.org:taxname:143816	Caulerpa	J.V. Lamouroux, 1809	143816	Caulerpa	J.V. Lamouroux, 1809	Plantae	Chlorophyta	Ulvophyceae	Bryopsidales	Caulerpaceae	Caulerpa			
 Caulerpa sp2	143816	exact	urn:lsid:marinespecies.org:taxname:143816	Caulerpa	J.V. Lamouroux, 1809	143816	Caulerpa	J.V. Lamouroux, 1809	Plantae	Chlorophyta	Ulvophyceae	Bryopsidales	Caulerpaceae	Caulerpa			
 Caulerpa sp3	143816	exact	urn:lsid:marinespecies.org:taxname:143816	Caulerpa	J.V. Lamouroux, 1809	143816	Caulerpa	J.V. Lamouroux, 1809	Plantae	Chlorophyta	Ulvophyceae	Bryopsidales	Caulerpaceae	Caulerpa			
-CCA									
+CCA																	
 Centroceras sp1	143833	exact	urn:lsid:marinespecies.org:taxname:143833	Centroceras	Kützing, 1842 '1841'	143833	Centroceras	Kützing, 1842 '1841'	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Ceramiaceae	Centroceras			
 Ceratozona squalida	386149	exact	urn:lsid:marinespecies.org:taxname:386149	Ceratozona squalida	(C. B. Adams, 1845)	386149	Ceratozona squalida	(C. B. Adams, 1845)	Animalia	Mollusca	Polyplacophora	Chitonida	Callistoplacidae	Ceratozona		squalida	
 Cerithium atratum	224572	exact	urn:lsid:marinespecies.org:taxname:224572	Cerithium atratum	(Born, 1778)	224572	Cerithium atratum	(Born, 1778)	Animalia	Mollusca	Gastropoda	[unassigned] Caenogastropoda	Cerithiidae	Cerithium		atratum	
@@ -66,7 +66,7 @@ Decapoda spp	1130	exact	urn:lsid:marinespecies.org:taxname:1130	Decapoda	Latreil
 Dichocoenia sp1	267382	exact	urn:lsid:marinespecies.org:taxname:267382	Dichocoenia	Milne Edwards & Haime, 1848	267382	Dichocoenia	Milne Edwards & Haime, 1848	Animalia	Cnidaria	Anthozoa	Scleractinia	Meandrinidae	Dichocoenia			
 Dictyosphaeria sp1	144265	exact	urn:lsid:marinespecies.org:taxname:144265	Dictyosphaeria	Decaisne, 1842	144265	Dictyosphaeria	Decaisne, 1842	Plantae	Chlorophyta	Ulvophyceae	Siphonocladales	Siphonocladaceae	Dictyosphaeria			
 Dictyota cervicornis	145364	exact	urn:lsid:marinespecies.org:taxname:145364	Dictyota cervicornis	Kützing, 1859	377141	Canistrocarpus cervicornis	(Kützing) De Paula & De Clerck, 2006	Chromista	Ochrophyta	Phaeophyceae	Dictyotales	Dictyotaceae	Dictyota		cervicornis	
-Dictyota dichotoma	ambiguous															
+Dictyota dichotoma	145367	exact	urn:lsid:marinespecies.org:taxname:145367	Dictyota dichotoma	(Hudson) J.V.Lamouroux, 1809	145367	Dictyota dichotoma	(Hudson) J.V.Lamouroux, 1809	Chromista	Ochrophyta	Phaeophyceae	Dictyotales	Dictyotaceae	Dictyota		dichotoma	
 Dictyota hamifera	220775	exact	urn:lsid:marinespecies.org:taxname:220775	Dictyota hamifera	Setchell, 1926	220775	Dictyota hamifera	Setchell, 1926	Chromista	Ochrophyta	Phaeophyceae	Dictyotales	Dictyotaceae	Dictyota		hamifera	
 Dictyota humifusa	145370	exact	urn:lsid:marinespecies.org:taxname:145370	Dictyota humifusa	Hörnig, Schnetter & Coppejans, 1992	145370	Dictyota humifusa	Hörnig, Schnetter & Coppejans, 1992	Chromista	Ochrophyta	Phaeophyceae	Dictyotales	Dictyotaceae	Dictyota		humifusa	
 Dictyota menstrualis	145375	exact	urn:lsid:marinespecies.org:taxname:145375	Dictyota menstrualis	(Hoyt) Schnetter, Hörning & Weber-Peukert, 1987	145375	Dictyota menstrualis	(Hoyt) Schnetter, Hörning & Weber-Peukert, 1987	Chromista	Ochrophyta	Phaeophyceae	Dictyotales	Dictyotaceae	Dictyota		menstrualis	
@@ -87,7 +87,7 @@ Echinometra lucunter	213380	exact	urn:lsid:marinespecies.org:taxname:213380	Echi
 Echinometra viridis	422493	exact	urn:lsid:marinespecies.org:taxname:422493	Echinometra viridis	A. Agassiz, 1863	422493	Echinometra viridis	A. Agassiz, 1863	Animalia	Echinodermata	Echinoidea	Camarodonta	Echinometridae	Echinometra		viridis	
 Erythropodium caribaeorum	289919	exact	urn:lsid:marinespecies.org:taxname:289919	Erythropodium caribaeorum	(Duchassaing & Michelotti, 1860)	289919	Erythropodium caribaeorum	(Duchassaing & Michelotti, 1860)	Animalia	Cnidaria	Anthozoa	Alcyonacea	Anthothelidae	Erythropodium		caribaeorum	
 Eualetes sp1	397074	exact	urn:lsid:marinespecies.org:taxname:397074	Eualetes	Keen, 1971	397074	Eualetes	Keen, 1971	Animalia	Mollusca	Gastropoda	Littorinimorpha	Vermetidae	Eualetes			
-Film									
+Film																	
 Fissurella angusta	419354	exact	urn:lsid:marinespecies.org:taxname:419354	Fissurella angusta	(Gmelin, 1791)	419354	Fissurella angusta	(Gmelin, 1791)	Animalia	Mollusca	Gastropoda	Lepetellida	Fissurellidae	Fissurella		angusta	
 Fissurella barbadensis	419355	exact	urn:lsid:marinespecies.org:taxname:419355	Fissurella barbadensis	(Gmelin, 1791)	419355	Fissurella barbadensis	(Gmelin, 1791)	Animalia	Mollusca	Gastropoda	Lepetellida	Fissurellidae	Fissurella		barbadensis	
 Fissurella nimbosa	729935	exact	urn:lsid:marinespecies.org:taxname:729935	Fissurella nimbosa	(Linnaeus, 1758)	729935	Fissurella nimbosa	(Linnaeus, 1758)	Animalia	Mollusca	Gastropoda	Lepetellida	Fissurellidae	Fissurella		nimbosa	
@@ -129,7 +129,7 @@ Isognomon sp3	138091	exact	urn:lsid:marinespecies.org:taxname:138091	Isognomon	L
 Isognomon sp4	138091	exact	urn:lsid:marinespecies.org:taxname:138091	Isognomon	Lightfoot, 1786	138091	Isognomon	Lightfoot, 1786	Animalia	Mollusca	Bivalvia	Ostreida	Pteriidae	Isognomon			
 Isognomon sp5	138091	exact	urn:lsid:marinespecies.org:taxname:138091	Isognomon	Lightfoot, 1786	138091	Isognomon	Lightfoot, 1786	Animalia	Mollusca	Bivalvia	Ostreida	Pteriidae	Isognomon			
 Laurencia filiformis	239301	exact	urn:lsid:marinespecies.org:taxname:239301	Laurencia filiformis	(C.Agardh) Montagne, 1845	239301	Laurencia filiformis	(C.Agardh) Montagne, 1845	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	Laurencia		filiformis	
-Laurencia mamilosa									
+Laurencia mamilosa	143914	exact	urn:lsid:marinespecies.org:taxname:143914	Laurencia	J.V.Lamouroux, 1813	143914	Laurencia	J.V.Lamouroux, 1813	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	Laurencia			
 Laurencia obtusa	144827	exact	urn:lsid:marinespecies.org:taxname:144827	Laurencia obtusa	(Hudson) J.V.Lamouroux, 1813	144827	Laurencia obtusa	(Hudson) J.V.Lamouroux, 1813	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	Laurencia		obtusa	
 Laurencia papillosa	212005	exact	urn:lsid:marinespecies.org:taxname:212005	Laurencia papillosa	(C.Agardh) Greville, 1830	495580	Palisada perforata	(Bory de Saint-Vincent) K.W.Nam, 2007	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	Laurencia		papillosa	
 Laurencia poteaui	212018	exact	urn:lsid:marinespecies.org:taxname:212018	Laurencia poteaui	(Lamouroux) Howe	144830	Laurencia poiteaui	(J.V.Lamouroux) M.A.Howe, 1918	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	Laurencia		poteaui	
@@ -203,7 +203,7 @@ Siphonaria sp2	138489	exact	urn:lsid:marinespecies.org:taxname:138489	Siphonaria
 Tectarius muricatus	397190	exact	urn:lsid:marinespecies.org:taxname:397190	Tectarius muricatus	(Linnaeus, 1758)	419557	Cenchritis muricatus	(Linnaeus, 1758)	Animalia	Mollusca	Gastropoda	Littorinimorpha	Littorinidae	Tectarius		muricatus	
 Tetraclita sp1	204386	exact	urn:lsid:marinespecies.org:taxname:204386	Tetraclita	Schumacher, 1817	204386	Tetraclita	Schumacher, 1817	Animalia	Arthropoda	Hexanauplia	Sessilia	Tetraclitidae	Tetraclita			
 Thais deltoidea	817474	exact	urn:lsid:marinespecies.org:taxname:817474	Thais deltoidea	(Lamarck, 1822)	714225	Vasula deltoidea	(Lamarck, 1822)	Animalia	Mollusca	Gastropoda	Neogastropoda	Muricidae	Thais		deltoidea	
-Thais rustica									
+Thais rustica	397116	exact	urn:lsid:marinespecies.org:taxname:397116	Stramonita rustica	(Lamarck, 1822)	397116	Stramonita rustica	(Lamarck, 1822)	Animalia	Mollusca	Gastropoda	Neogastropoda	Muricidae	Stramonita	rustica		
 Thais sp1	138207	exact	urn:lsid:marinespecies.org:taxname:138207	Thais	Röding, 1798	138207	Thais	Röding, 1798	Animalia	Mollusca	Gastropoda	Neogastropoda	Muricidae	Thais			
 Thais sp2	138207	exact	urn:lsid:marinespecies.org:taxname:138207	Thais	Röding, 1798	138207	Thais	Röding, 1798	Animalia	Mollusca	Gastropoda	Neogastropoda	Muricidae	Thais			
 Thais sp3	138207	exact	urn:lsid:marinespecies.org:taxname:138207	Thais	Röding, 1798	138207	Thais	Röding, 1798	Animalia	Mollusca	Gastropoda	Neogastropoda	Muricidae	Thais			

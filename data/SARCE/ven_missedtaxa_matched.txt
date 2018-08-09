@@ -1,0 +1,5 @@
+ScientificName	AphiaID	Match type	LSID	ScientificName	Authority	AphiaID_accepted	ScientificName_accepted	Authority_accepted	Kingdom	Phylum	Class	Order	Family	Genus	Subgenus	Species	Subspecies
+Lithopoma americanun	413407	near_1	urn:lsid:marinespecies.org:taxname:413407	Lithopoma americanum	(Gmelin, 1791)	413407	Lithopoma americanum	(Gmelin, 1791)	Animalia	Mollusca	Gastropoda	Trochida	Turbinidae	Lithopoma		americanum	
+Stramonita rustica	397116	exact	urn:lsid:marinespecies.org:taxname:397116	Stramonita rustica	(Lamarck, 1822)	397116	Stramonita rustica	(Lamarck, 1822)	Animalia	Mollusca	Gastropoda	Neogastropoda	Muricidae	Stramonita		rustica	
+Laurencia	143914	exact	urn:lsid:marinespecies.org:taxname:143914	Laurencia	J.V.Lamouroux, 1813	143914	Laurencia	J.V.Lamouroux, 1813	Plantae	Rhodophyta	Florideophyceae	Ceramiales	Rhodomelaceae	Laurencia			
+Dictyota dichotoma	145367	exact	urn:lsid:marinespecies.org:taxname:145367	Dictyota dichotoma	(Hudson) J.V.Lamouroux, 1809	145367	Dictyota dichotoma	(Hudson) J.V.Lamouroux, 1809	Chromista	Ochrophyta	Phaeophyceae	Dictyotales	Dictyotaceae	Dictyota		dichotoma	

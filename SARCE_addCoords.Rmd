@@ -1,0 +1,90 @@
+---
+title: "Add Coordinates to SARCE table"
+author: "Eduardo Klein. eklein@usb.ve"
+date: "created: 2018-08-09"
+output:
+  github_document:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+last run `r lubridate::now(tzone="UTM") UTM
+
+
+## Introduction
+
+One characteristic of the share SARCE dataset is that it doesn't contains the longitude information, as it was intended to be used for a latitudinal pattern analysis. But we **need** the longitude information.
+
+With this script we will add Lon/Lat coordinates to all the sites make a tree representation of all Countries/Location/Sites and a `leaflet` plot 
+
+## Data
+
+For this exercise you could use SARCE data for your country as the main data set has been split by countries. We have the coordinates information in the file *sarce_coords.csv*. In this case I will use the Venezuela dataset.
+
+
+```{r dataread}
+
+## read (WoRMS matched) SARCE data
+## change your file name here to use your own data
+filename="Venezuela_CleanMatched.csv"
+SARCE = read.csv(file = paste0("data/SARCE/", filename), stringsAsFactors = F)
+
+## read SAARCE coords
+SARCE.coords = read.csv(file="data/SARCE/sarce_coords.csv", stringsAsFactors = F)
+
+```
+
+
+## Join the tables
+
+
+We need to join the tavbles using a common set of variables. For this case we can use de codes for country, State, Locality and Site, which are present in both tables
+
+```{r jointables}
+require(stringr)
+
+
+SARCE.withCoords = left_join(SARCE, SARCE.coords, by = c("Country_code", "State_code", "Locality_code", "Site_code"))
+```
+
+
+## Plot of the sites
+
+We will now plot the sites in a map. For that I will use the very powerful and flexible package `leaflet`. For that we only need to provide the coordinates and the labels for each of the point we will plot
+
+```{r basicmap}
+require(leaflet)
+
+## I will use the default OpenSreet base map, but you can select among many base maps options
+## coordinates are the variables Longitudes, Latitude.y which comes from the coords table
+## note that you need an Internet connection to produce the map
+## llok at the leaflet docummentation https://rstudio.github.io/leaflet/
+
+leaflet(SARCE.withCoords) %>% addTiles() %>%
+  addCircleMarkers(~Longitude, ~Latitude.y, radius = 1, label = ~Site.x)
+```
+
+
+We can go further and make a map with markers with its size propotional to the number of different taxa in each of the sites, which it could be considered as the richness map. For that we will prepare another table that summarizes the information.
+
+```{r richnessMap}
+require(dplyr)
+
+## let produce a table with the numer of taxa for each site
+
+SARCE.richness = SARCE.withCoords %>% 
+  group_by(Id.x, Longitude, Latitude.y) %>% 
+  summarise(richness = length(unique(ScientificName_accepted)))
+
+## do the map. We will use the relative richness (richness/max(richness)) to scale the size of the marker
+leaflet(SARCE.richness) %>% addTiles() %>%
+  addCircleMarkers(~Longitude, ~Latitude.y, 
+                   radius = 10 * ~richness/max(richness), 
+                   label = ~Id.x)
+
+```
+
