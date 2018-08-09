@@ -1,0 +1,46 @@
+---
+title: "Join tables"
+author: "Eduardo Klein. eklein@usb.ve"
+date: "created 2018-08-09"
+output:
+  github_document:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Last run `r lubridate::now(tzone="UTM")` UTM
+
+## Join matched records 
+
+Now you have the matched records with WoRMS, you need to join the results to your existing table. This script will add the WoRMS information for each taxa to your original table using the scientific name as index.
+
+We will use `dplyr::join_left` to perform the join
+
+```{r readdata}
+require(readr)
+require(dplyr)
+
+
+## I'll use Venezuela as case study here
+## read the data
+filename = "Venezuela"
+SARCE.clean <- read_csv(file=paste0("data/SARCE/", filename, "_clean.csv"))
+
+
+## read the matched data. WoRMS returns a table with variables separated by tabs
+## 
+taxaWoRMS = read.csv(file="data/SARCE/SARCE_taxa_matched.csv", sep="\t")
+
+```
+
+So in both tables we have the variable `scientificName` but in WoRMS is returned with capital S and capital N (`ScientificName`) and we will use this for the join
+
+```{r taxajoin}
+
+SARCE.matched = left_join(SARCE.clean, taxaWoRMS, by=c("scientificName" = "ScientificName"))
+```
+
